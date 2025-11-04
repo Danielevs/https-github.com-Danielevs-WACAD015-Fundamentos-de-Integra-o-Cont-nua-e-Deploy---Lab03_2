@@ -1,5 +1,4 @@
-# 💻 Laboratório 03 – Exercício 01: Aplicando o conceito de testes utilizando Jest com uma biblioteca externa para análise de cobertura
-
+# 💻 Laboratório 03 – Exercício 02 - Usando containers com o GitHub Actions
 
 Este repositório contém os arquivos e configurações do exercício 01 do Laboratório 02 da Web Academy. O objetivo é aprender a configurar e utilizar **GitHub Actions** para automatizar tarefas em projetos de desenvolvimento.
 
@@ -8,7 +7,7 @@ Este repositório contém os arquivos e configurações do exercício 01 do Labo
 - Consolidar o uso de pipelines através da configuração de etapas de teste (usando o Jest) e com o uso de Containers.
 
 ## 🛠️ Estrutura do projeto
-.github/ └── workflows/ └── teste.yml
+.github/ └── workflows/ └── docker_build.yml
 
 ## Pré-Requisitos:
 - Ter uma conta no GitHub
@@ -18,7 +17,7 @@ Este repositório contém os arquivos e configurações do exercício 01 do Labo
 
 ## 🚀 Como funciona o workflow:
 
-O arquivo `build.yml` define um fluxo de trabalho que é executado automaticamente quando há um `push` ou `pull request` no branch `main`. Ele pode incluir etapas como:
+O arquivo `docker_build.yml` define um fluxo de trabalho que é executado automaticamente quando há um `push` ou `pull request` no branch `main`. Ele pode incluir etapas como:
 
 - Instalar dependências
 - Rodar testes
@@ -28,7 +27,7 @@ O arquivo `build.yml` define um fluxo de trabalho que é executado automaticamen
 
 1. Clone o repositório:
    ```bash
-   git clone https://github.com/Danielevs/WACAD015-Fundamentos-de-Integracao-Continua-e-Deploy---Lab02---Exercicio-2
+   git clone https://github.com/Danielevs/https-github.com-Danielevs-WACAD015-Fundamentos-de-Integra-o-Cont-nua-e-Deploy---Lab03_2
 
 2. Faça alterações e envie para o GitHub
 
